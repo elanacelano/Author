@@ -1,11 +1,18 @@
 body {
 	background-color: #F9FBFC;
+	padding-left: 10%	
+	
 }
 
 p {
 
 }
-.container {
-	width: 100%;
-	
+.card {
+background: #D5FFFB;
 }
+
+.container-fluid {
+	width: 100%;
+	padding: 10%
+}
+#container { float: left; margin: 0 -240px 0 0; width: 100%; }
