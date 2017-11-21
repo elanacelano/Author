@@ -8,24 +8,33 @@ body {
 	padding-left: 25px;
 	background-color: #140303;
 	color: white;
-	font-size: 25px;	
+	font-size: 25px;
+	position: fixed;	
+}
+h1 {
+	width: 1200px;
 }
 
 p {
 
 }
 .card {
-background: #D5FFFB;
+	background: #D5FFFB;
 }
 
 .container-fluid {
 	width: 100%;
 	padding: 10%
 }
-#container { float: left; margin: 0 -240px 0 0; width: 100%; }
+#container { 
+	float: left; 
+	margin: 0 -240px 0 0; 
+	width: 100%; 
+}
 
 img {
 /*	height: 520px;*/
+	padding-top: 115px;
 	width: 960px;
 /*	padding-top: 15px;*/
 /*	background-color: #140303;*/
