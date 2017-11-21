@@ -1,7 +1,14 @@
 body {
-	background-color: #F9FBFC;
-	padding-left: 10%	
+/*	background-color: #F9FBFC;
+*/	/*padding-left: 10%*/
+
 	
+}
+.navbar {
+	padding-left: 25px;
+	background-color: #140303;
+	color: white;
+	font-size: 25px;	
 }
 
 p {
@@ -16,3 +23,10 @@ background: #D5FFFB;
 	padding: 10%
 }
 #container { float: left; margin: 0 -240px 0 0; width: 100%; }
+
+img {
+/*	height: 520px;*/
+	width: 960px;
+/*	padding-top: 15px;*/
+/*	background-color: #140303;*/
+}
