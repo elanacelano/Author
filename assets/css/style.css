@@ -17,6 +17,7 @@ header {
 }
 
 h1 {
+	padding-left: 5%;
 	width: 1500px;
 }
 
@@ -44,6 +45,16 @@ p {
 	float: left; 
 	margin: 0 -240px 0 0; 
 	width: 100%; 
+}
+
+.mom {
+	padding: 5%;
+	width: 25%;
+}
+.bkground {
+/*	position: fixed;*/
+	width: 100%;
+	z-index: 1000;
 }
 
 img {
