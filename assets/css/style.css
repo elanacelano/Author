@@ -1,5 +1,10 @@
 body {
 }
+header {
+	position: fixed;
+	z-index: 1000;
+	width: 100%;
+}
 
 .navbar {
 	padding-left: 25px;
@@ -12,7 +17,7 @@ body {
 }
 
 h1 {
-	width: 15000px;
+	width: 1500px;
 }
 
 p {
@@ -20,7 +25,14 @@ p {
 }
 
 .card {
+	float: left;
 	background: #D5FFFB;
+	@include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+	@include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
 }
 
 .container-fluid {
@@ -36,11 +48,11 @@ p {
 
 img {
 /*	height: 520px;*/
-	padding-top: 115px;
+	padding-top: 200px;
 	width: 960px;
 /*	padding-top: 15px;*/
 /*	background-color: #140303;*/
 }
 .btn {
-	float: right;
+/*	float: right;*/
 }
